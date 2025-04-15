@@ -125,7 +125,7 @@ function readBGFile() {
         image.src = bgB64;
         let style = document.createElement('style');
         style.type = 'text/css';
-        style.innerHTML = '.cssClass { background-image: url(' + bgB64 + '); background-size: cover; resize: both;}';
+        style.innerHTML = '.cssclass { background-image: url(' + bgB64 + '); background-size: cover; resize: both;}';
         console.log(style)
         document.getElementsByTagName('head')[0].appendChild(style);
         $("#preview-wrapper").addClass("cssclass")
