@@ -34,7 +34,7 @@ $('#cmd').click(function () {
     else if (qrType === "tables" && logoB64 === "" && tablesToInsert.length === 0) {
         typeYOffset = -8
     }
-
+    import { jsPDF } from "jspdf";
     const doc = new jsPDF("p", "mm", "a6")
 
     //Global font
