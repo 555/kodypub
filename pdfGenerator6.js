@@ -68,9 +68,9 @@ $('#cmd').click(function () {
         doc.circle(52.5, 66 + typeYOffset, 40, "F")
 
         //Rounded rectangle
-        doc.addImage(isDarkMode ? darkDropShadow : lightDropShadow, "PNG", 12.5, 28 + typeYOffset, 80, 80);
-        doc.setFillColor(255, 255, 255);
-        doc.roundedRect(20, 34 + typeYOffset, 65, 65, 4, 4, "F")
+        //doc.addImage(isDarkMode ? darkDropShadow : lightDropShadow, "PNG", 12.5, 28 + typeYOffset, 80, 80);
+        //doc.setFillColor(255, 255, 255);
+        //doc.roundedRect(20, 34 + typeYOffset, 65, 65, 4, 4, "F")
 
         //Table number
         if (qrType !== "select-table") {
@@ -136,9 +136,9 @@ $('#cmd').click(function () {
             doc.circle(52.5, 59.5 + typeYOffset, 35, "F")
 
             //Rounded rectangle
-            doc.addImage(isDarkMode ? darkDropShadow : lightDropShadow, "PNG", 18, 25 + typeYOffset, 70, 70);
-            doc.setFillColor(255, 255, 255);
-            doc.roundedRect(23.5, 30.5 + typeYOffset, 58, 58, 4, 4, "F")
+            //doc.addImage(isDarkMode ? darkDropShadow : lightDropShadow, "PNG", 18, 25 + typeYOffset, 70, 70);
+            //doc.setFillColor(255, 255, 255);
+            //doc.roundedRect(23.5, 30.5 + typeYOffset, 58, 58, 4, 4, "F")
 
             //Table number
             if (qrType !== "select-table") {
